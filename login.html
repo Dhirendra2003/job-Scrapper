@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+
+        }
+    </style>
+    
+<script>
+    
+    function validate(){
+        var id = document.getElementById("uid").value;
+        var pass = document.getElementById("upass").value;
+        if(id=="bot123" && pass=="123")
+        {window.alert("login success")
+        window.location = "home.php";}
+    }
+    elem=document.getElementById("search");
+    elem.addEventListener("click",validate);
+      
+    </script>
+</head>
+
+<body>
+
+    <header>
+        <a href="home.html">
+            <img src="logo.png" class="logo" alt="">
+        </a>
+        <h1>find your dream</h1>
+        <nav>
+            <p>home</p>
+            <p>suggestions</p>
+            <p>contact</p>
+
+        </nav>
+    </header>
+    <div class="form">
+        <form >
+            <legend>Login</legend>
+            <br>
+            <div class="login">
+                your user ID: <br>
+               <input type="text" class="udata" id="uid"><br>
+               Enter password: <br>
+               <input type="password" class="udata" id="upass">
+
+            </div>
+            <button id="search" onclick="validate()"><a href="home.php"> Login </a></button>
+        </form>
+    </div>
+
+
+</body>
+
+</html>

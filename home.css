@@ -1,0 +1,264 @@
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(bg3.png);
+    background-repeat:repeat-y;
+    background-size: 100vw ;
+    background-attachment: fixed;
+    font-weight: 900;
+    
+}
+
+header {
+    display: flex;
+    background-color: rgba(223, 223, 223, 0.356);
+    margin: 0 0px;
+    padding: 15px;
+    backdrop-filter: blur(50px);
+    border-radius: 0px 0px 50px 50px;
+    box-shadow: 0 0 20px black;
+    position: fixed;
+    width: 98.5vw;
+    z-index: 20;
+    top: 0;
+    
+}
+
+img.logo {
+    height: 80px;
+    width: 192px;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 40px;
+    margin: 0 50px;
+    border-radius: 50px;
+
+}
+img.icon{
+    height:  2vw;
+    filter:invert();
+}
+
+nav {
+    position: relative;
+    display: flex;
+    padding: 2px;
+    margin: 20px;
+    float: right;
+
+}
+
+p {
+    margin: 0 10px;
+    padding: 15px;
+    background-color: rgba(42, 42, 42, 0.987);
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+p:hover {
+    background-color: black;
+}
+
+h1 {
+    text-transform: capitalize;
+    margin: auto;
+    padding: 0;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+}
+
+div.form {
+    position: relative;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.221);
+   
+    border-radius: 50px;
+    font-size: 2em;
+    backdrop-filter: blur(20px);
+    top: 200px;
+    width: 50%;
+    margin: 10vh 25vw;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.678);
+}
+
+form {
+    margin: 20px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 100%;
+}
+
+.enter {
+    background-color: white;
+    border-radius: 20px;
+    border: 2px black solid;
+    height: 6vh;
+    margin: 10px vw;
+    text-align: center;
+    font-size: .9em;
+    padding: 5px 10px;
+    width: 24%;
+
+}
+
+legend {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.69);
+}
+
+#search {
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin: 80px 20px 00px 00px;
+    padding: 10px;
+    position: relative;
+    left: 50%;
+    font-size: 1.5em;
+    border-radius: 20px;
+    background-color: rgb(0, 106, 255);
+    color: white;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 0 20px black;
+}
+h2{
+    padding: 5px;
+    margin:10px;
+    border-radius: 20px;
+    background-color: rgba(53, 53, 53, 0.281);
+    backdrop-filter: blur(50px);
+}
+div.jobcard1{
+    background-color: rgba(0, 0, 0, 0);
+    
+    
+    padding:50px;
+    margin:20px ;
+    margin-top: 60px;
+    width: 40%;
+    float: left;
+    height: 10vh;
+}
+div.jobcard2{
+    background-color: rgba(0, 0, 0, 0);
+    
+    height: 10vh;
+    padding:50px;
+    margin:20px ;
+    margin-top: 60px;
+    width: 40%;
+    float: right;
+}
+
+div.layout{
+    background-color: rgba(255, 255, 255, 0.83);
+    backdrop-filter:blur(20px);
+    padding-top: 100px;
+    padding-bottom: 20px;
+    margin: 110px;
+    border-radius: 50px;
+    display:inline-block;
+}
+
+h2.post{
+    color: white;
+    background-color: rgb(41, 41, 41);
+    text-transform: uppercase;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h3.company{
+    color: rgb(29, 144, 0);
+    text-decoration: underline rgb(29, 144, 0);
+    padding-left: 20px;
+}
+p.details{
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none white;
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+}
+p.sdata{
+    position: fixed;
+    z-index: 5;
+    top: -50px;
+    width: 20%;
+    left: 0;
+    margin:0 40%;
+    padding: 20px;
+    padding-top: 200px;
+    background-color: rgba(0, 0, 0, 0.724);
+    color: rgb(33, 167, 0);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    border-radius: 50px;
+    font-size: 25px;
+    
+    
+}
+div.login{
+    position: relative;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.677);
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    
+   
+    border-radius: 50px;
+    backdrop-filter: blur(20px);
+    top: 0px;
+    width: 75%;
+    margin: auto;
+    padding: 50px;
+    box-shadow: 0 0 50px 5px rgba(0, 0, 0, 0.678);
+}
+
+.udata{
+    background-color: white;
+    border-radius: 20px;
+    border: 2px black solid;
+    height: 4vh;
+    margin: 10px vw;
+    text-align: center;
+    font-size: .9em;
+    padding: 5px 10px;
+    width: 70%;
+
+}
+
+p.news{
+    background-color: white;
+    padding: 20px;
+    margin: 0 0px;
+    color: black;
+
+}
+div.newssec{
+    background-color: black;
+    margin: 80px;
+    position: relative;
+    border-radius: 30px;
+    padding: 40px;
+    top: 20vh;
+
+}
+
+h2.data{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
