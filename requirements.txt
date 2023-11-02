@@ -1,2 +1,1 @@
-pip --version
-pip install beautifulsoup4 requests
+pip3 install beautifulsoup4 requests
